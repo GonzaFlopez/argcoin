@@ -1,0 +1,21 @@
+.main {
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: flex-start;
+	padding: 4rem;
+}
+
+.video {
+	border-radius: 1rem;
+}
+
+.texts {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	justify-content: center;
+	width: 30rem;
+	text-align: center;
+}

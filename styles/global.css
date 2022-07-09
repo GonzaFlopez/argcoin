@@ -1,0 +1,96 @@
+:root {
+	--color-black: #202020;
+	--color-gray: #9e9e9e;
+	--color-primary: #00e676;
+	--color-white: #fff;
+}
+
+* {
+	color: var(--color-white);
+	font-family: 'Albert Sans', sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.page {
+	background-color: var(--color-black);
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	min-height: 100vh;
+	padding: 0.5rem 1rem 1rem;
+}
+
+.header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__list {
+	align-items: center;
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.header__list__item:hover,
+.header__list__selected {
+	color: var(--color-primary);
+	font-weight: bold;
+}
+
+.header__buttons {
+	align-items: center;
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+}
+
+.main {
+	display: flex;
+	flex: 1;
+	padding-bottom: 2rem;
+}
+
+.button {
+	align-items: center;
+	border-radius: 0.5rem;
+	border: none;
+	display: flex;
+	font-size: 0.875rem;
+	font-weight: bold;
+	gap: 0.5rem;
+	justify-content: center;
+	padding: 0.5rem 1rem;
+}
+
+.button__primary {
+	background-color: var(--color-primary);
+	color: var(--color-black);
+}
+
+.button__secondary {
+	background-color: var(--color-white);
+	color: var(--color-black);
+}
+
+.button__tertiary {
+	background-color: var(--color-black);
+}
+
+.text__primary {
+	color: var(--color-primary);
+}
+
+.text__gray {
+	color: var(--color-gray);
+}
+
+.icon__black {
+	color: var(--color-black);
+}

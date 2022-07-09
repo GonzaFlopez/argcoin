@@ -1,0 +1,28 @@
+.left {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+	max-width: 24rem;
+	padding: 4rem;
+}
+
+.left__title {
+	font-size: 4rem;
+}
+
+.right {
+	align-items: center;
+	background: linear-gradient(125.11deg, #202020 50.02%, #9d9d9d 271.49%);
+	border-radius: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+}
+
+.right__image {
+	width: 32%;
+	min-width: 24rem;
+}

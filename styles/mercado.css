@@ -1,0 +1,32 @@
+.main {
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: flex-start;
+	padding: 4rem;
+}
+
+.texts {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	justify-content: center;
+	max-width: 44rem;
+	text-align: center;
+}
+
+.cryptos {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+}
+
+.crypto {
+	align-items: center;
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+}
