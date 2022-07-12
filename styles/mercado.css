@@ -16,6 +16,12 @@
 	text-align: center;
 }
 
+@media (max-width: 80px) {
+	.texts {
+		width: 100%;
+	}
+}
+
 .cryptos {
 	align-items: center;
 	display: flex;
@@ -24,9 +30,22 @@
 	justify-content: center;
 }
 
+@media (max-width: 740px) {
+	.cryptos {
+		gap: 4rem;
+	}
+}
+
 .crypto {
 	align-items: center;
 	display: flex;
 	gap: 2rem;
 	justify-content: center;
+}
+
+@media (max-width: 740px) {
+	.crypto {
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
 }

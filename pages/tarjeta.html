@@ -1,64 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>argcoin | Grow your portfolio</title>
-		<link rel="stylesheet" href="../styles/global.css" />
-		<link rel="stylesheet" href="../styles/tarjeta.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;700&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0"
-		/>
-		<link rel="shortcut icon" type="image/svg" href="../assets/favicon.svg" />
-	</head>
-	<body class="page">
-		<header class="header">
-			<a href="../">
-				<img src="../assets/logo.svg" alt="logo" />
-			</a>
-			<ul class="header__list">
-				<li>
-					<a class="header__list__selected" href="#">tarjeta</a>
-				</li>
-				<li>
-					<a class="header__list__item" href="./mercado.html">mercado</a>
-				</li>
-				<li>
-					<a class="header__list__item" href="./nosotros.html">nosotros</a>
-				</li>
-			</ul>
-			<span class="header__buttons">
-				<a class="button button__tertiary" href="./acceder.html">acceder</a>
-				<a class="button button__primary" href="./crear-cuenta.html"
-					>crear cuenta</a
-				>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>argcoin | Tarjeta</title>
+	<link rel="stylesheet" href="../styles/global.css" />
+	<link rel="stylesheet" href="../styles/tarjeta.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+	<link rel="shortcut icon" type="image/svg" href="../assets/favicon.svg" />
+</head>
+
+<body class="page">
+	<header class="header">
+		<a href="../">
+			<img class="header__logo" src="../assets/logo.svg" alt="logo" />
+			<img class="header__favicon" src="../assets/favicon.svg" alt="logo" />
+		</a>
+		<ul class="header__list">
+			<li>
+				<a class="header__list__selected" href="#">tarjeta</a>
+			</li>
+			<li>
+				<a class="header__list__item" href="./mercado.html">mercado</a>
+			</li>
+			<li>
+				<a class="header__list__item" href="./nosotros.html">nosotros</a>
+			</li>
+		</ul>
+		<span class="header__buttons">
+			<a class="button button__tertiary" href="./acceder.html">acceder</a>
+			<a class="button button__primary" href="./crear-cuenta.html">crear cuenta</a>
+		</span>
+	</header>
+	<main class="main">
+		<img class="card" src="../assets/card.png" alt="card" />
+		<div class="texts">
+			<p><b class="text__primary">TARJETA VISA ARGCOIN</b></p>
+			<h1>La única tarjeta que necesitas</h1>
+			<p>
+				Disfrute de hasta un 5 % de reembolso en todos sus gastos con su
+				elegante tarjeta de metal puro. Sin cuotas anuales.Recarga con fiat o
+				crypto.
+			</p>
+		</div>
+		<button class="button button__secondary">
+			Consigue tu tarjeta
+			<span class="material-symbols-outlined icon__black">
+				arrow_forward
 			</span>
-		</header>
-		<main class="main">
-			<img class="card" src="../assets/card.png" alt="card" />
-			<div class="texts">
-				<p><b class="text__primary">TARJETA VISA ARGCOIN</b></p>
-				<h1>La única tarjeta que necesitas</h1>
-				<p>
-					Disfrute de hasta un 5 % de reembolso en todos sus gastos con su
-					elegante tarjeta de metal puro. Sin cuotas anuales.Recarga con fiat o
-					crypto.
-				</p>
-			</div>
-			<button class="button button__secondary">
-				Consigue tu tarjeta
-				<span class="material-symbols-outlined icon__black">
-					arrow_forward
-				</span>
-			</button>
-		</main>
-	</body>
+		</button>
+	</main>
+	<footer class="footer">
+		<p>
+			argcoin™
+		</p>
+		<ul class="footer__social">
+			<li>
+				<a href="https://www.instagram.com/argcoin" target="_blank">
+					<img src="../assets/social/instagram.svg" alt="Instagram">
+				</a>
+			</li>
+			<li>
+				<a href="https://www.facebook.com/argcoin">
+					<img src="../assets/social/facebook.svg" alt="Facebook">
+				</a>
+			</li>
+			<li>
+				<a href="https://www.twitter.com/argcoin">
+					<img src="../assets/social/twitter.svg" alt="Twitter">
+				</a>
+			</li>
+		</ul>
+
+	</footer>
+</body>
+
 </html>

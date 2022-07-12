@@ -40,5 +40,12 @@
 }
 
 .button__custom {
+	margin-top: 1rem;
+	max-width: 100%;
+	padding: 0.75rem 1rem;
 	width: 20rem;
+}
+
+.button__custom:last-child {
+	margin-top: 0;
 }

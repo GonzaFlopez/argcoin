@@ -1,3 +1,7 @@
+.main__custom {
+	flex-wrap: wrap;
+}
+
 .left {
 	align-items: flex-start;
 	display: flex;
@@ -8,8 +12,20 @@
 	padding: 4rem;
 }
 
+@media (max-width: 799px) {
+	.left {
+		padding: 1rem;
+	}
+}
+
 .left__title {
 	font-size: 4rem;
+}
+
+@media (max-width: 799px) {
+	.left__title {
+		font-size: 3rem;
+	}
 }
 
 .right {
@@ -20,6 +36,12 @@
 	flex-direction: column;
 	justify-content: center;
 	flex: 1;
+}
+
+@media (max-width: 799px) {
+	.right {
+		background: none;
+	}
 }
 
 .right__image {
